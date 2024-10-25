@@ -36,10 +36,10 @@ Los datos que se registran son los siguientes:
 ## Pasos para Compilar y Ejecutar la Aplicación
 
 1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/Alberto-Arias-x64/q-vision.git
-   cd ./q-vision/
-  ```
+```bash
+git clone https://github.com/Alberto-Arias-x64/q-vision.git
+cd ./q-vision/
+```
 2. **Instalar las dependencias**:
 ```bash
 npm install
