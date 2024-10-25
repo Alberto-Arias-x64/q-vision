@@ -1,0 +1,58 @@
+<section>
+  <h1>Costumer register</h1>
+  <form (ngSubmit)="handleSubmit(form)" [formGroup]="form">
+    <section>
+      <div class="flex flex-column gap-2">
+        <label for="username">ID number</label>
+        <input
+          pInputText
+          id="id"
+          formControlName="id"
+          type="number"
+        />
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="name">Name</label>
+        <input
+          pInputText
+          id="name"
+          formControlName="name"
+        />
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="lastName">Last name</label>
+        <input
+          pInputText
+          id="lastName"
+          formControlName="lastName"
+        />
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="email">Email</label>
+        <input
+          pInputText
+          id="email"
+          formControlName="email"
+        />
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="phone">Phone</label>
+        <input
+          pInputText
+          id="phone"
+          formControlName="phone"
+          type="number"
+        />
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="address">Address</label>
+        <input
+          pInputText
+          id="address"
+          formControlName="address"
+        />
+      </div>
+    </section>
+    <p-button label="Submit" type="Submit" />
+  </form>
+</section>

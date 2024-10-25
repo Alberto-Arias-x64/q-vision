@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+form {
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+}

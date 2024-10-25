@@ -1,27 +1,62 @@
-# QVision
+# Taller de Desarrollo en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+El objetivo es con Angular 18 utilizando PrimeNG. realizar las siguientes tareas teniendo en cuenta las siguientes indicaciones:
 
-## Development server
+- Aplicar buenas prácticas de desarrollo.
+- Utilizar todos los patrones de desarrollo que consideren necesarios.
+- Manejo de Excepciones.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Ejercicio
 
-## Code scaffolding
+El ejercicio consiste en desarrollar las siguientes capacidades:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Crear un formulario para registrar clientes**
+   - Simular el endpoint del backend en caso de ser necesario.
 
-## Build
+2. **Crear un formulario para consultar clientes**
+   - Permitir buscar por cualquier coincidencia de nombre o apellido (opcional).
+   - Mostrar la consulta en un componente que permita paginar de 10 registros y ordenar.
+   - Simular el endpoint del backend en caso de ser necesario.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Crear las pruebas unitarias**
+   - Utilizar Jasmine y Karma.
+   - Lograr una cobertura del 90% (simular el endpoint del backend en caso de ser necesario).
 
-## Running unit tests
+## Datos del Cliente
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Los datos que se registran son los siguientes:
 
-## Running end-to-end tests
+- Identificación
+- Nombre
+- Apellidos
+- Email
+- Celular
+- Dirección
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Pasos para Compilar y Ejecutar la Aplicación
 
-## Further help
+1. **Clonar el repositorio**:
+   ```bash
+   git clone <link_del_repositorio>
+   cd <nombre_del_directorio>
+  ```
+2. **Instalar las dependencias**:
+```bash
+npm install
+```
+3.  **Compilar la aplicación**:
+```bash
+npm run build
+```
+4. **Ejecutar la aplicación**:
+```bash
+npm start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. **Acceder a la aplicación**: Abrir un navegador y visitar http://localhost:4200.
+
+## Buenas Prácticas
+
+- Uso de código descriptivo y en ingles
+- Aplicación de principios solid
+- manejo de errores
