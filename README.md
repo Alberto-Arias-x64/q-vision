@@ -37,8 +37,8 @@ Los datos que se registran son los siguientes:
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <link_del_repositorio>
-   cd <nombre_del_directorio>
+   git clone https://github.com/Alberto-Arias-x64/q-vision.git
+   cd ./q-vision/
   ```
 2. **Instalar las dependencias**:
 ```bash
